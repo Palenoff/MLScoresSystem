@@ -1,0 +1,6 @@
+name;type;values;attribute_type
+sepal_length;numeric;4.0->5.0|5.1->6.0|6.1->7.0|7.1->inf;input
+sepal_width;numeric;2->2.7|2.8->3.1|3.1->inf;input
+petal_length;numeric;1->3.9|4->4.9|5->6.9;input
+petal_width;numeric;0.1->1.4|1->1.5|1.6->2.5;input
+species;categorical;setosa|versicolor|virginica;output
