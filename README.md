@@ -12,7 +12,7 @@ http://rggu.ru/who_is_who/detail.php?ID=4274
 В папке docs Вы также можете ознакомиться с полным текстом ВКР, в котором излагается подробное руководство пользователя.
 
 
-This project represents my final research for the Bachelor's degree in Intellectual Systems for the Humanities which was defended with an excellent grade at the Russian State University for the Humanities on the June 13, 2018.
+This project represents my final research for the Bachelor's degree in Intelligent Systems for the Humanities which was defended with an excellent grade at the Russian State University for the Humanities on the June 13, 2018.
 
 The academic adviser is Doctor Of Math And Physics, Prof Oleg Anshakov  
 https://github.com/oansh  
