@@ -14,7 +14,7 @@ http://rggu.ru/who_is_who/detail.php?ID=4274
 
 This project represents my final research for the Bachelor's degree in Intelligent Systems for the Humanities which was defended with an excellent grade at the Russian State University for the Humanities on the June 13, 2018.
 
-The academic adviser is Doctor Of Math And Physics, Prof Oleg Anshakov  
+The academic adviser is Doctor Of Science, Prof Oleg Anshakov  
 https://github.com/oansh  
 http://rggu.ru/who_is_who/detail.php?ID=4274
 
