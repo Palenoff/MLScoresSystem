@@ -98,8 +98,8 @@ namespace WindowsFormsApp
                         {
                             dataPyObject = PyModule.InvokeMethod("GetData", new PyObject[] { OFD.FileName.ToPython(), AttributeDataSets[AttributesListBox.SelectedItem.ToString()].Attributes });
                         }
-                        int inputlength = dataPyObject["inputdata"].Length();
-                        int outputlength = dataPyObject["outputdata"].Length();
+                        int inputlength = (int)dataPyObject["inputdata"].Length();
+                        int outputlength = (int)dataPyObject["outputdata"].Length();
                         if (inputlength != outputlength)
                             throw new InvalidOperationException("Объём входных данных не соответствует объёму выходных!");
                         Data.DataSet dataset = new Data.DataSet(dataPyObject, 0, inputlength - 1);

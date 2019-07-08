@@ -188,8 +188,14 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.ValueTuple">
-      <Version>4.4.0</Version>
+      <Version>4.5.0</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>echo F|xcopy /y "$(SolutionDir)\Core\Main.py" "$(TargetDir)"
+echo F|xcopy /y "$(SolutionDir)\Core\CrossValidation.py" "$(TargetDir)"
+echo D|xcopy /y "$(SolutionDir)\Core\BitSetConvertor" "$(TargetDir)\BitSetConvertor\"
+echo D|xcopy /y "$(SolutionDir)\Core\JSM" "$(TargetDir)\JSM"</PostBuildEvent>
+  </PropertyGroup>
 </Project>
